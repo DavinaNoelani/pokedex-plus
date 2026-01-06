@@ -29,7 +29,8 @@ const Home = () => {
     
     return (
         <>
-            <div className="bg-gray-400 rounded-lg p-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-red-600" >
+            <div className="container bg-gray-400 rounded-lg p-6 grid grid-cols-2 md:grid-cols-4 gap-4 text-red-600" >
+
                 {pokemon.map((p) => (
                     <div
                         key={p.name}
@@ -41,6 +42,7 @@ const Home = () => {
                         </h2>
                     </div>
                 ))}
+
             </div>
         </>
     );

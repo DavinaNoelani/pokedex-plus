@@ -1,16 +1,88 @@
-# React + Vite
+## Pokédex+ 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  A modern, responsive Pokédex web app built with React, Tailwind CSS, and the PokéAPI. Displays Pokémon names and images in a clean grid layout with search and filter-ready structure. Designed to showcase frontend skills and component-based architecture.
 
-Currently, two official plugins are available:
+## 🔹 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    You can include a live demo link here if deployed on Vercel or Netlify.
 
-## React Compiler
+## 🛠️ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Displays a list of Pokémon with images and names
 
-## Expanding the ESLint configuration
+    Fully responsive grid layout using Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    Clean, modular React components
+
+    Fetches Pokémon data from the PokéAPI
+
+    Ready for search, filter, and favorites enhancements
+
+    Fast, beginner-friendly portfolio-ready project
+
+## 🧩 Tech Stack
+
+    Frontend: React + Vite
+
+    Styling: Tailwind CSS
+
+    Data Fetching: Axios + PokéAPI
+
+    Deployment: Vercel (optional)
+
+    Version Control: 
+        Git + GitHub
+
+## ⚡ Installation / Run Locally
+
+    Clone the repo:
+
+        git clone https://github.com/DavinaNoelani/pokedex-plus.git
+        cd pokedex-plus
+
+
+## Install dependencies:
+
+    npm install
+
+## Start the development server:
+
+    npm run dev
+
+
+## Open in your browser:
+
+    http://localhost:5173
+
+
+📂 Project Structure
+    src/
+        ├── api/             # API functions for fetching Pokémon
+        ├── pages/           # Page components (Home, Detail)
+        ├── components/      # Reusable UI components
+        ├── context/         # Context API setup (for favorites later)
+        ├── hooks/           # Custom hooks
+        ├── App.jsx          # Main app component
+        └── main.jsx         # ReactDOM render entry point
+
+💡 Future Enhancements
+
+    Pokémon detail pages with stats, types, and moves
+
+    Favorites system using Context API + localStorage
+
+    Search and filter by type/generation
+
+    Improved UI/UX: animations, hover effects, better color scheme
+
+📣 Author
+
+Davina Noelani
+
+## GitHub: https://github.com/DavinaNoelani
+
+
+
+📄 License
+
+    MIT License – free to use and modify.
